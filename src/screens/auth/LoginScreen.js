@@ -105,13 +105,6 @@ export default class LoginScreen extends React.Component {
                         </ImageBackground>
                     </TouchableOpacity>
                     <View style={styles.container}>
-                        {/* <SocialIcon
-                            title='Kontynuuj z Facebook'
-                            button
-                            type='facebook'
-                            style={styles.buttonFb}
-                            onPress={this.loginWithFacebook}
-                        /> */}
                         
                         <ImageBackground source={Icons.buttonIcons.fbButton} style={styles.buttonFb}>
                             <SocialIcon 
@@ -143,7 +136,6 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between'
     },
     text: {color: "black", fontFamily: 'Toms Handwritten', fontWeight: "normal", textAlign: "center", fontSize: 24},
-    textFb: {color: "white", fontFamily: 'Toms Handwritten', fontWeight: "normal", textAlign: "center", fontSize: 22},
     button: {
         marginBottom: 10,
         width: 140,
